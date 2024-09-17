@@ -1,0 +1,14 @@
+{
+  "type": "module",
+  "name": "portfolio-api",
+  "version": "1.0.0",
+  "description": "Portfolio Web API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --env-file=.env server.js",
+    "dev": "node --watch --env-file=.env server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vicente Ferrer - vicentemferrer",
+  "license": "ISC"
+}
